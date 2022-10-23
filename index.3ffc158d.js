@@ -1,0 +1,2 @@
+window.onscroll=function(){return e=document.querySelector("[data-header]"),o=e.offsetHeight,void(window.pageYOffset>o?e.classList.add("no-transparency"):e.classList.remove("no-transparency"));var e,o},function(){var e={openModalBtn:document.querySelector("[data-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o)}();
+//# sourceMappingURL=index.3ffc158d.js.map

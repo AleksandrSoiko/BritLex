@@ -1,0 +1,2 @@
+window.onscroll=()=>function(){const e=document.querySelector("[data-header]"),o=e.offsetHeight;window.pageYOffset>o?e.classList.add("no-transparency"):e.classList.remove("no-transparency")}(),(()=>{const e={openModalBtn:document.querySelector("[data-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o)})();
+//# sourceMappingURL=index.d79f943d.js.map
